@@ -15,7 +15,7 @@ jobs:
       - name: Run script
         run: python generate.py
       - name: Upload result
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: blog-post
           path: result.txt
